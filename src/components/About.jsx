@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am DevOps Engineer with 3+ years of experience in the field of DevOps, FullStack development and UI/UX Design. I have worked on various projects and have a good knowledge of various technologies. I am a quick learner and always ready to learn new technologies. I am a team player and always ready to help my team members. Also I'm keen in contributing to open source projects. 
+        I am a DevOps Engineer with 3+ years of experience in the field of DevOps, FullStack development and UI/UX Design. I have worked on various projects and have a good knowledge of various technologies. I am a quick learner and always ready to learn new technologies. I am a team player and always ready to help my team members. Also I'm keen in contributing to open source projects. 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

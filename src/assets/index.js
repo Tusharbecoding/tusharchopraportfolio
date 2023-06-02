@@ -33,8 +33,11 @@ import rasta from "./company/rasta.png";
 import lifesap from "./company/lifesap.png";
 import buds from "./company/buds.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+
+import truss from "./truss.png";
+import truss1 from "./truss1.png";
+import tanus from "./tanus.png";
+import volcanoh from "./volcanoh.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -42,6 +45,7 @@ export {
   backend,
   creator,
   mobile,
+  truss,
   web,
   github,
   menu,
@@ -49,6 +53,7 @@ export {
   close,
   css,
   docker,
+  tanus,
   figma,
   git,
   rasta,
@@ -68,8 +73,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  truss1,
+  volcanoh,
+  
   tripguide,
   kubernetes,
 };

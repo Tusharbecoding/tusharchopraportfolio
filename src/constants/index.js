@@ -16,11 +16,13 @@ import {
   carmony,
   figma,
   docker,
-  carrent,
+  truss,
   metvy,
-  jobit,
+  truss1,
+  tanus,
   nextjs,
   kubernetes,
+  volcanoh,
   lifesap, 
   tripguide,
   rasta,
@@ -200,58 +202,38 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Truss",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      'Web-based platform with the functionalities of Reddit and Stackoverflow combined. Made using technologies like Next.js, Firebase, Typescript, Tailwind CSS, etc. Users can post questions, answer questions, upvote and downvote questions and answers, etc. ',
+      
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: truss1,
+    source_code_link: "https://github.com/Tusharbecoding/Truss-1",
+  },
+  {
+    name: "Volcanoh",
+    description:
+      "Mobile application that enables users to login and click pictures and edit them just like one can do with an Instagram story. There is a front and back option wherein one can click pictures to place for the front and back of the Volcanoh and set outside their stores.",
+    tags: [
+      {
+        name: "reactnative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -259,8 +241,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: volcanoh,
+    source_code_link: "https://github.com/Tusharbecoding/volcanoh",
+  },
+  {
+    name: "Tanu's Kitchen",
+    description:
+      "A web application that enables Tanu's Kitchen a restaurant in Southampton, UK to showcase their menu and take orders online. The application is made using Javascript, HTML & CSS. The application is deployed on Netlify.",
+      
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HMTL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tanus,
+    source_code_link: "https://github.com/Tusharbecoding/Kitchen",
   },
 ];
 
