@@ -5,7 +5,6 @@ import {
   web,
   javascript,
   typescript,
-  
   css,
   reactjs,
   redux,
@@ -14,6 +13,7 @@ import {
   mongodb,
   git,
   carmony,
+  summer,
   figma,
   docker,
   truss,
@@ -23,7 +23,7 @@ import {
   nextjs,
   kubernetes,
   volcanoh,
-  lifesap, 
+  lifesap,
   tripguide,
   rasta,
   buds,
@@ -65,7 +65,6 @@ const services = [
 ];
 
 const technologies = [
-  
   {
     name: "CSS 3",
     icon: css,
@@ -122,13 +121,35 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Engineer",
+    company_name: "Carmony.io",
+    icon: carmony,
+    iconBg: "#383E56",
+    date: "October 2023 - Present",
+    points: [
+      `Frontend Development: Leveraged Reactjs, Redux, Design Tokens, Style Dictionary to develop and maintain the webapp’s frontend. Created the official website as well using Reactjs & TailwindCSS. Studied the use of PolygonID for integrating web3.0`,
+      "Testing: Wrote more than 100 passing tests and set up a DevOps pipeline. Used Jest and Testing Library for writing tests.",
+    ],
+  },
+  {
+    title: "Founder",
+    company_name: "summerdawgstore",
+    icon: summer,
+    iconBg: "#383E56",
+    date: "June 2023 - August 2023",
+    points: [
+      `Developed an online Retail store for delivering pet products like pet pools, sprinkle pads, goggles etc.`,
+      `Built and launched a Shopify website for the official store, utilizing various apps such as Product Reviews and ReferralCandy to drive customer satisfaction up by 10%.`,
+    ],
+  },
+  {
     title: "Web3 Developer",
     company_name: "Carmony.io",
     icon: carmony,
     iconBg: "#383E56",
-    date: "April 2023 - Present",
+    date: "April 2023 - October 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developed a scalable and responsive frontend architecture using Reactjs, resulting in a 40% increase performance",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Created the official website of Carmony.io using React.js, Redux, Tailwind CSS from scratch",
@@ -157,7 +178,6 @@ const experiences = [
       "Designed the official website of LifeSap a startup based in Kanpur, India",
       "Designed the UI of the website and the mobile app using Figma and helped in development of the website using Reactjs.",
       "Ensured responsive design and ensuring cross-browser compatibility.",
-      
     ],
   },
   {
@@ -204,8 +224,8 @@ const projects = [
   {
     name: "Truss",
     description:
-      'Web-based platform with the functionalities of Reddit and Stackoverflow combined. Made using technologies like Next.js, Firebase, Typescript, Tailwind CSS, etc. Users can post questions, answer questions, upvote and downvote questions and answers, etc. ',
-      
+      "Web-based platform with the functionalities of Reddit and Stackoverflow combined. Made using technologies like Next.js, Firebase, Typescript, Tailwind CSS, etc. Users can post questions, answer questions, upvote and downvote questions and answers, etc. ",
+
     tags: [
       {
         name: "nextjs",
@@ -248,7 +268,7 @@ const projects = [
     name: "Tanu's Kitchen",
     description:
       "A web application that enables Tanu's Kitchen a restaurant in Southampton, UK to showcase their menu and take orders online. The application is made using Javascript, HTML & CSS. The application is deployed on Netlify.",
-      
+
     tags: [
       {
         name: "javascript",
