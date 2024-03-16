@@ -9,19 +9,19 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={0.5} groundColor="white" />
       <spotLight
         position={[-10, 50, 10]}
-        angle={0.42}
-        penumbra={1}
-        intensity={1}
+        angle={0.8} // Increased angle for wider spread
+        penumbra={0.5} // Reduced penumbra for sharper shadows
+        intensity={4.5}
         castShadow
         shadow-mapSize={1024}
       />
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.15 : 0.30}
+        scale={isMobile ? 0.15 : 0.3}
         position={isMobile ? [5, -15, 1] : [2, -30, 1]}
         rotation={[-0.01, -0.2, -0.1]}
       />
@@ -55,7 +55,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop='demand'
+      frameloop="demand"
       shadows
       dpr={[1, 2]}
       camera={{ position: [-20, -3, -20], fov: 80 }}
