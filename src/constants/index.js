@@ -13,7 +13,6 @@ import {
   mongodb,
   git,
   carmony,
-  summer,
   figma,
   docker,
   truss,
@@ -129,17 +128,6 @@ const experiences = [
     points: [
       `Frontend Development: Leveraged Reactjs, Redux, Design Tokens, Style Dictionary to develop and maintain the webapp’s frontend. Created the official website as well using Reactjs & TailwindCSS. Studied the use of PolygonID for integrating web3.0`,
       "Testing: Wrote more than 100 passing tests and set up a DevOps pipeline. Used Jest and Testing Library for writing tests.",
-    ],
-  },
-  {
-    title: "Founder",
-    company_name: "summerdawgstore",
-    icon: summer,
-    iconBg: "#383E56",
-    date: "June 2023 - August 2023",
-    points: [
-      `Developed an online Retail store for delivering pet products like pet pools, sprinkle pads, goggles etc.`,
-      `Built and launched a Shopify website for the official store, utilizing various apps such as Product Reviews and ReferralCandy to drive customer satisfaction up by 10%.`,
     ],
   },
   {
