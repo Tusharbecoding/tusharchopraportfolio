@@ -12,6 +12,7 @@ import {
   nodejs,
   mongodb,
   git,
+  ecomm,
   carmony,
   figma,
   docker,
@@ -26,6 +27,7 @@ import {
   tripguide,
   rasta,
   buds,
+  subcon,
   threejs,
 } from "../assets";
 
@@ -119,6 +121,29 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Software Engineer",
+    company_name: "Subconscious AI",
+    icon: subcon,
+    iconBg: "#fff",
+    date: "June 2024 - August 2024",
+    points: [
+      `Real-time Notifications: Developed and deployed real-time notifications using Novu, enhancing user satisfaction by 30% through timely in-app and email alerts.`,
+      "Seamless Onboarding Flow: Designed and integrated a seamless onboarding flow with HubSpot, Auth0, and Stripe, reducing user drop-off rates by 40% and boosting user retention",
+      `Billing Logic Implementation: Architected and implemented advanced billing logic with Typescript and Nextjs, elevating user experience by 25% and driving premium subscriptions`,
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Subconscious AI",
+    icon: subcon,
+    iconBg: "#fff",
+    date: "March 2024 - June 2024",
+    points: [
+      `Fullstack Development: Built the official website with Next.js, incorporating engaging animations that elevated user experience by 40%. Ensured code quality with thorough reviews and effective team communication.`,
+      "Debugging and Code Optimisation: Diagnosed and fixed critical bugs, optimised the codebase using server-sent events and web hooks, enhancing application performance by 35% and cutting error rates by 20%",
+    ],
+  },
   {
     title: "Frontend Engineer",
     company_name: "Carmony.io",
@@ -232,25 +257,25 @@ const projects = [
     source_code_link: "https://github.com/Tusharbecoding/Truss-1",
   },
   {
-    name: "Volcanoh",
+    name: "EcommGuru",
     description:
-      "Mobile application that enables users to login and click pictures and edit them just like one can do with an Instagram story. There is a front and back option wherein one can click pictures to place for the front and back of the Volcanoh and set outside their stores.",
+      "Spearheaded an e-commerce website using Next.js and Sanity.io, incorporating robust billing and add-to-cart functionalities. This project boosted user engagement by 50% and streamlined the checkout process productively.",
     tags: [
       {
-        name: "reactnative",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "Stripe",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Sanity.io",
         color: "pink-text-gradient",
       },
     ],
-    image: volcanoh,
-    source_code_link: "https://github.com/Tusharbecoding/volcanoh",
+    image: ecomm,
+    source_code_link: "https://github.com/Tusharbecoding/ecommguru",
   },
   {
     name: "Tanu's Kitchen",

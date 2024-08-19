@@ -32,9 +32,10 @@ import metvy from "./company/metvy.png";
 import rasta from "./company/rasta.png";
 import lifesap from "./company/lifesap.png";
 import buds from "./company/buds.png";
-
+import subcon from "./company/subcon.png";
 
 import truss from "./truss.png";
+import ecomm from "./ecomm.png";
 import truss1 from "./truss1.png";
 import tanus from "./tanus.png";
 import volcanoh from "./volcanoh.png";
@@ -47,6 +48,7 @@ export {
   mobile,
   truss,
   web,
+  subcon,
   github,
   menu,
   buds,
@@ -75,7 +77,7 @@ export {
   tesla,
   truss1,
   volcanoh,
-  
   tripguide,
   kubernetes,
+  ecomm,
 };

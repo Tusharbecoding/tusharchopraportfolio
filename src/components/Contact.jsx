@@ -1,9 +1,8 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { SocialIcon } from 'react-social-icons';
+import { SocialIcon } from "react-social-icons";
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -70,27 +69,23 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] p-8 rounded-2xl'
+        className="flex-[0.75] p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <div className="flex space-x-3 pt-6 ">
-        <SocialIcon url="https://twitter.com/TusharC29050031" />
-        <SocialIcon  url="https://www.linkedin.com/in/tushar-chopra-960532215/" />
-        <SocialIcon bgColor="white" url="https://github.com/Tusharbecoding" />
-        <SocialIcon bgColor="white" url="https://medium.com/@tusharchopra02122002" />
+          <SocialIcon url="https://twitter.com/TusharC29050031" />
+          <SocialIcon url="https://www.linkedin.com/in/tushar-chopra-960532215/" />
+          <SocialIcon bgColor="white" url="https://github.com/Tusharbecoding" />
+          <SocialIcon
+            bgColor="white"
+            url="https://medium.com/@tusharchopra02122002"
+          />
         </div>
         <div className="flex pt-6">
           Email ID: tusharchopra02122002@gmail.com
         </div>
-      </motion.div>
-
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-        <EarthCanvas />
       </motion.div>
     </div>
   );
